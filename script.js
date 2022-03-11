@@ -11,7 +11,7 @@ function validateForm() {
           showConfirmButton: false,
           timer: 1500
         })
-          window.location.href = 'JKBLemh6PA2lth59VzcQVQxZONU0I3J.html';
+          alert("You just logged in - Test!");
           return false;
         }
     else {
