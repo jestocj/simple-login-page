@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;}
+h1{
+    user-select: none;
+    margin-left: 68px;
+    margin-top: 80px;
+    font-weight: lighter;
+    letter-spacing: 1.8px;    
+    color: #f0f0f0;
+    font-size: 40px;
+}
+.gold{
+    padding: 18px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #0084d2, #009df9);
+    box-shadow:  20px 20px 60px #007dc6,
+             -20px -20px 60px #00a9ff;
+    transition: 0.5s;
+}
+.box{
+  display: inline-block;
+}
+.gold:hover{
+    letter-spacing: 10px;
+}
+body{
+    background-color: #0093E9;
+}
+form{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 30px;
+}
+label{
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+#username{
+    transition: 0.5s ease;
+    padding-left: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    border: none; 
+}
+#password{
+    transition: 0.5s ease;
+    padding-left: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    border: none; 
+}
+#username:focus{
+    outline: none;
+}
+#password:focus{
+    outline: none;
+}
+#lab-user{
+    user-select: none;
+    cursor: text;
+    position: relative;
+    bottom: 46px;
+    left: 60px;
+    color: gray;
+}
+#lab-pass{
+    user-select: none;
+    cursor: text;
+    position: relative;
+    bottom: 46px;
+    left: 60px;
+    color: gray;
+}
+.box input:focus ~ #lab-pass,
+.box input:valid ~ #lab-pass
+{
+    transition: 0.5s ease;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    color: #f0f0f0;
+}
+.box input:focus ~ #lab-user,
+.box input:valid ~ #lab-user
+{
+    transition: 0.5s ease;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    color: #f0f0f0;
+}
+#submit
+{
+  transition: 0.5s ease;
+    background-color: #df4adf;
+    border: none;
+    border-radius: 40px;
+    color: #f0f0f0;
+    padding: 15px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#submit:focus{
+    outline: none;
+}
+
+i {
+    transition: 0.6s ease;
+    margin-left: -30px;
+    cursor: pointer;
+}
+#togglePassword{
+    transition: 0.6s ease;
+    position: relative;
+    top: -48px;
+    left: 240px;
+}
+#submit:hover{
+  background-color: rgb(45, 95, 231);
+  color: white;
+}
+#go-back{
+  color: #f0f0f0;
+  position: relative;
+  bottom: 290px;
+  left: 800px;
+  padding: 20px;
+  border-radius: 57px;
+  background: linear-gradient(145deg, #0084d2, #009df9);
+  box-shadow:  24px 24px 39px #0077bd,
+             -24px -24px 39px #00afff;
+  border: none;
+  cursor: pointer;
+}
